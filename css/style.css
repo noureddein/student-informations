@@ -8,10 +8,13 @@ body {
   color: #eee;
 }
 table,
-th,
-td {
-  border: 1px solid #eee;
+th {
+  border: 2px solid #eee;
   padding: 10px 30px;
+}
+td {
+  border: 2px solid #eee;
+  padding: 0px 10px;
 }
 header nav {
   background-color: rgba(96, 96, 96, 0.6);
@@ -21,35 +24,89 @@ header nav {
   flex-direction: row;
   height: 50px;
 }
-header nav h3 {
-  width: 50%;
+
+#asac {
+  text-align: center;
+  width: 120%;
   text-align: center;
   margin: auto;
 }
-header nav div {
-  width: 40%;
+
+#headerTabs {
+  width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto;
   color: #eee;
 }
 
 header nav div a {
   color: #eee;
-  list-style: none;
+  text-decoration: none;
 }
 
 #tableSection {
   background-color: rgba(96, 96, 96, 0.6);
   margin: 20px;
 }
-#formSection {
+#studentForm fieldset {
   background-color: rgba(96, 96, 96, 0.6);
-  margin: 20px;
+  margin: 30px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 main {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#studentForm fieldset label {
+  padding: 10px;
+}
+
+input {
+  width: 170px;
+  height: 25px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+
+#tableSection h3 {
+  padding: 10px;
+  margin: 18px;
+}
+
+button,
+#submitButton {
+  font-weight: 900;
+  color: #eee;
+  width: auto;
+  margin: 15px;
+  padding: 10px;
+  background-color: rgba(76, 96, 96, 0.8);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+#total,
+#tableSection h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+select {
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 25px;
+  font-family: "Roboto", sans-serif;
 }
