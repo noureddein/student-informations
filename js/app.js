@@ -43,19 +43,7 @@ function id() {
 }
 const ids = [];
 const currentYear = new Date().getFullYear();
-// function studentID() {
-//   const randomID = getAge(1, 400);
-//   ids.push(randomID);
-//   if (ids.includes(randomID)) {
-//     randomID;
-//   } else {
-//     console.log(`${currentYear}${randomID}`);
-//   }
-//   console.log('arr', ids);
-//   return `${currentYear}${id()}`;
-// }
 
-// studentID();
 
 
 
